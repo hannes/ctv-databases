@@ -94,6 +94,9 @@ databases within R.
       key-value database using SQLite as the backend.
   -   The `r pkg("liteq")` package provides temporary and
       permanent message queues for R, built on top of SQLite.
+- The `r pkg("duckdb")` package contains the [DuckDB](https://duckdb.org) 
+  in-process analytical data management system. The package provides a 
+  DBI-compliant interface and the entire system implementation.
 - The `r pkg("bigrquery")` package provides the interface
   to [Google BigQuery](https://developers.google.com/bigquery/),
   Google's fully managed, petabyte scale, low cost analytics data
